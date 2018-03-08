@@ -1,0 +1,9 @@
+.legislation-container {
+  background-color: #e5eef4;
+  border: 1px solid #4c6072;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(59,59,88,.15);
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px;
+}

@@ -1,0 +1,30 @@
+.legislation {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.legislation:not(:last-child) {
+  border-bottom: 1px solid #4c6072;
+}
+
+.legislation-details {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 100px 15px 100px;
+  padding: 20px;
+  text-align: left;
+}
+
+.legislation-name {
+  font-size: 20px;
+}
+
+.legislation-header {
+  font-weight: 600;
+}
+
+.legislation-info, .legislation-status, .email-senator, .legislation-prognosis{
+  padding-bottom: 20px;
+}
